@@ -24,7 +24,7 @@
         </property>
 
         <property name = "hbm2ddl.auto">
-            create-drop
+            validate
         </property>
 
         <mapping class="model.User"/>
