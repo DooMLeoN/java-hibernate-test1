@@ -24,9 +24,11 @@
         </property>
 
         <property name = "hbm2ddl.auto">
-            validate
+            create-drop
         </property>
 
+        <mapping class="model.Product"/>
         <mapping class="model.User"/>
+        <mapping class="model.Booking"/>
     </session-factory>
 </hibernate-configuration>
